@@ -1,0 +1,56 @@
+*{
+    padding: 0em;
+    margin: 0em;
+}
+#bookform label{
+    display: block;
+    font-weight: bolder;
+    font-size: 1em;
+}
+#bookform input{
+    margin-bottom: 2em;
+    width: 40%;
+    padding: 0.2em;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 0.3em;
+    background-color: rgba(194, 194, 194, 0.582);
+    height: 2.5em;
+}
+#bookform{
+    margin-left: 24em;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    
+}
+#bookform textarea{
+    width: 80%;
+    margin-bottom: 2em;
+    border: none;
+    border-radius: 0.3em;
+    background-color: rgba(194, 194, 194, 0.582);
+    height:12em;
+    font-size: 1.2em;
+    padding: 1em;
+}
+#file{
+    font-size: 1.2em;
+    padding: 0.5em;
+}
+#heading{
+    margin-left: 12em;
+    font-weight: bolder;
+    font-size: 2em;
+    width: 50%;
+    border-bottom: 2px solid grey;
+}
+#bookform button{
+    display: block;
+    width: 15%;
+    border: none;
+    border-radius: 0.5em;
+    padding: 1em;
+    font-size: 1em;
+    color: white;
+    /* background-color: #03bd2c; */
+}
